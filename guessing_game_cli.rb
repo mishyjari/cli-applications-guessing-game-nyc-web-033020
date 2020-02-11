@@ -23,7 +23,7 @@ def game(user_guess,target_number)
 end
 
 def run_guessing_game
-  prompt
+ # prompt
   game(user_input,computer_guess)
 end
     
