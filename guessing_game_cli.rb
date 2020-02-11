@@ -16,7 +16,7 @@ def run_guessing_game
   user_guess = user_input
   p user_guess
 
-  target_number = computer_guess.to_s
+  target_number = computer_guess
   p target_number
   if user_guess == target_number
     puts "You guessed the correct number!"
