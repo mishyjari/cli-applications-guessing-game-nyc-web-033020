@@ -13,9 +13,9 @@ def user_input
 end
 
 def game(user_guess,target_number)
-  if guess == target_number
+  if user_guess == target_number
     puts "You guessed the correct number!"
-  elsif guess == 'exit'
+  elsif user_guess == 'exit'
     puts 'Goodbye!'
   else
     puts "Sorry! The computer guessed #{target_number}."
