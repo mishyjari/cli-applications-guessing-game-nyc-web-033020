@@ -13,7 +13,7 @@ def user_input
 end
 
 def run_guessing_game
-  user_guess = user_input
+  user_guess = user_input.to_i
   p user_guess
 
   target_number = computer_guess
