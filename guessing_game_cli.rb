@@ -13,10 +13,10 @@ def user_input
 end
 
 def run_guessing_game
-  user_guess = user_input.to_i
+  user_guess = user_input
   p user_guess
 
-  target_number = computer_guess
+  target_number = computer_guess.to_s
   p target_number
   if user_guess == target_number
     puts "You guessed the correct number!"
