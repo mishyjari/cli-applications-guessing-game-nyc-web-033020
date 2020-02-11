@@ -12,7 +12,9 @@ def user_input
   gets.chomp
 end
 
-def game(user_guess,target_number)
+def run_guessing_game
+  user_guess = user_input
+  target_number = computer_guess
   if user_guess == target_number
     puts "You guessed the correct number!"
   elsif user_guess == 'exit'
@@ -22,9 +24,5 @@ def game(user_guess,target_number)
   end
 end
 
-def run_guessing_game
-  prompt
-  game(user_input,computer_guess)
-end
     
     
